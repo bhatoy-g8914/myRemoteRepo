@@ -5,6 +5,7 @@ package myJavaProject;
 
 import java.util.Scanner;
 public class myAppTester {
+
 	
  public static void main(String[] args) {
 	  
@@ -18,7 +19,7 @@ public class myAppTester {
 	  System.out.println();
 
 	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
-
+	  myMethod();
 	}
 	
 	//This is a method to reverse the number by recursion
@@ -34,14 +35,16 @@ public class myAppTester {
 	   }
 
 
-	   /* 
-	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...){
-
+	   
+	       //add your test method in this space then remove the block comment symbols
+	       public static void myTestMethod(){
+			
+				System.out.println("My Function called");
+			
             
 
 		   }
 	 
-	   */
+	   
 
 }
